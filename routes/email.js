@@ -26,7 +26,7 @@ const sendemail = async (email) => {
       if (error) {
         console.log("Error from sending email", error);
       } else {
-        console.log("Email sent" + info.response);
+        console.log("Email sent" , info);
       }
     });
     return otp.toString();
